@@ -3,13 +3,42 @@
 /*! @@@@ Google fonts link End  */
 
 /*? Body Style Start  */
-body{
+body {
     font-style: normal;
 }
+
+h1 {
+    font-family: 'EB Garamond';
+}
+
 /*? Body Style End  */
 
 /*! Navbar style start */
-.nav-btn{
+.nav-btn {
     background: #B68C5A !important;
 }
+
 /*! Navbar style End */
+
+/*!banner style start */
+/* .banner{
+    background-image: url('../images/banner.png');
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+} */
+/*!banner style End */
+
+/*!The Legal Practice Area style Start */
+.legal-card {
+    outline: none;
+    transition: all 0.5s;
+}
+
+.legal-card:hover {
+
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+    border: 1px solid #E7E7E7;
+}
+
+/*!The Legal Practice Area style End */
