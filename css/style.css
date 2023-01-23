@@ -42,3 +42,9 @@ h1 {
 }
 
 /*!The Legal Practice Area style End */
+
+/*!carousel style Start*/
+.carousel-img{
+    filter: brightness(0.4);
+}
+/*!carousel style End */
