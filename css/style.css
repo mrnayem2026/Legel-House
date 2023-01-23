@@ -7,3 +7,9 @@ body{
     font-style: normal;
 }
 /*? Body Style End  */
+
+/*! Navbar style start */
+.nav-btn{
+    background: #B68C5A !important;
+}
+/*! Navbar style End */
