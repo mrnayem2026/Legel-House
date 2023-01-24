@@ -21,19 +21,22 @@ h1 {
 /*! Navbar style End */
 
 /*!banner style start */
-.banner{
-    background-image: url('../images/banner.png'),linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
+.banner {
+    background-image: url('../images/banner.png'), linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
     background-position: center;
     background-size: cover;
     height: 550px;
 }
+
 .search-input:focus {
     border-color: #F3F3F3 !important;
     box-shadow: none !important;
 }
-.search-submit{
+
+.search-submit {
     background-color: #B68C5A;
 }
+
 /*!banner style End */
 
 /*!The Legal Practice Area style Start */
@@ -116,9 +119,11 @@ h1 {
 .email-input:focus {
     box-shadow: none !important;
 }
-.submit-btn{
+
+.submit-btn {
     background-color: #B68C5A !important;
 }
+
 /*!Footer section style End */
 
 
@@ -131,8 +136,4 @@ h1 {
     .accordion-header {
         width: inherit;
     }
-}
-
-.hide{
-    display: none;
 }
