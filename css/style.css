@@ -31,12 +31,10 @@ h1 {
 
 /*!The Legal Practice Area style Start */
 .legal-card {
-    outline: none;
     transition: all 0.5s;
 }
 
 .legal-card:hover {
-
     background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
     border: 1px solid #E7E7E7;
 }
@@ -105,11 +103,25 @@ h1 {
     content: '\002B';
 }
 
+/*!Frequently Asked Any Questions section style End */
+
+/*!Footer section style Start */
+.email-input:focus {
+    box-shadow: none !important;
+}
+.submit-btn{
+    background-color: #B68C5A !important;
+}
+/*!Footer section style End */
+
+
+
+
+/*? Simple media quarey */
 @media screen and (max-width:570px) {
+
     .accordion-item,
     .accordion-header {
         width: inherit;
     }
 }
-
-/*!Frequently Asked Any Questions section style End */
