@@ -132,3 +132,7 @@ h1 {
         width: inherit;
     }
 }
+
+.hide{
+    display: none;
+}
